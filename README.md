@@ -69,25 +69,6 @@ Production and internal platforms I have helped engineer, deploy, and operate:
 </tr>
   <tr>
   <td width="30%">
-    <strong>Project School</strong><br>
-    <sub>Academic Project Management Platform</sub>
-  </td>
-  <td width="70%">
-    Built and maintained <strong>30+ production REST APIs</strong> using <strong>NestJS</strong> and <strong>TypeORM</strong> for project enrollment, group formation, mentor allocation, project tracking, evaluations, and related academic workflows serving <strong>1,000+ students</strong>. Implemented <strong>JWT + RBAC</strong> to enforce least-privilege access and optimized high-traffic database queries to reduce response latency. Designed <strong>concurrency-safe enrollment workflows</strong> that prevent duplicate enrollments, duplicate group creation, race conditions, and inconsistent transactional states.<br>
-    <a href="https://ps.kmitonline.com/">
-      <img src="https://img.shields.io/badge/Live-ps.kmitonline.com-38B2AC?style=flat-square&logo=googlechrome&logoColor=white">
-    </a>
-  </td>
-</tr>
-  <tr>
-    <td width="30%"><strong>Prashmanch</strong><br><sub>AI Assessment & Evaluation Platform</sub></td>
-    <td width="70%">
-      Built NestJS + TypeORM backend services integrating <strong>OpenAI GPT-4</strong> through <strong>BullMQ</strong> asynchronous queues, reducing manual grading time by <strong>40%</strong> and processing <strong>1,000+ assessment submissions</strong> through reliable background workflows.<br>
-      <a href="https://prashnamanch.tesseractonline.com/"><img src="https://img.shields.io/badge/Live-prashnamanch.tesseractonline.com-38B2AC?style=flat-square&logo=googlechrome&logoColor=white"></a>
-    </td>
-  </tr>
-<tr>
-  <td width="30%">
     <strong>Distributed Auto-Grading Platform</strong><br>
     <sub>JupyterHub + nbgrader Infrastructure</sub>
   </td>
@@ -110,6 +91,25 @@ Production and internal platforms I have helped engineer, deploy, and operate:
     </a>
   </td>
 </tr>
+  </tr>
+  <tr>
+    <td width="30%"><strong>Prashmanch</strong><br><sub>AI Assessment & Evaluation Platform</sub></td>
+    <td width="70%">
+      Built NestJS + TypeORM backend services integrating <strong>OpenAI GPT-4</strong> through <strong>BullMQ</strong> asynchronous queues, reducing manual grading time by <strong>40%</strong> and processing <strong>1,000+ assessment submissions</strong> through reliable background workflows.<br>
+      <a href="https://prashnamanch.tesseractonline.com/"><img src="https://img.shields.io/badge/Live-prashnamanch.tesseractonline.com-38B2AC?style=flat-square&logo=googlechrome&logoColor=white"></a>
+    </td>
+  </tr>
+  <tr>
+  <td width="30%">
+    <strong>Project School</strong><br>
+    <sub>Academic Project Management Platform</sub>
+  </td>
+  <td width="70%">
+    Built and maintained <strong>30+ production REST APIs</strong> using <strong>NestJS</strong> and <strong>TypeORM</strong> for project enrollment, group formation, mentor allocation, project tracking, evaluations, and related academic workflows serving <strong>1,000+ students</strong>. Implemented <strong>JWT + RBAC</strong> to enforce least-privilege access and optimized high-traffic database queries to reduce response latency. Designed <strong>concurrency-safe enrollment workflows</strong> that prevent duplicate enrollments, duplicate group creation, race conditions, and inconsistent transactional states.<br>
+    <a href="https://ps.kmitonline.com/">
+      <img src="https://img.shields.io/badge/Live-ps.kmitonline.com-38B2AC?style=flat-square&logo=googlechrome&logoColor=white">
+    </a>
+  </td>
 </table>
 
 ---
@@ -157,12 +157,12 @@ Independent products where I owned architecture, implementation review, deployme
       Modular NestJS reference backend covering JWT authentication, RBAC, TypeORM, Redis caching, background queues, scheduling, file uploads, rate limiting, and structured logging.
     </td>
     <td width="33%">
-      <a href="https://github.com/bhargavachary123/Nestjs-boilerplate"><strong>Nestjs-boilerplate</strong></a><br>
-      NestJS starter with JWT authentication, role-based authorization, MySQL and TypeORM integration, Redis caching, logging, Swagger documentation, file uploads, and Docker support.
-    </td>
-    <td width="33%">
       <a href="https://github.com/bhargavachary123/Gpu-Benchmark-Suite"><strong>Gpu-Benchmark-Suite</strong></a><br>
       Professional Python and CUDA benchmarking suite for comparing NVIDIA GPUs across compute, training, inference, power efficiency, thermal behavior, and NVML telemetry.
+    </td>
+    <td width="33%">
+      <a href="https://github.com/bhargavachary123/Nestjs-boilerplate"><strong>Nestjs-boilerplate</strong></a><br>
+      NestJS starter with JWT authentication, role-based authorization, MySQL and TypeORM integration, Redis caching, logging, Swagger documentation, file uploads, and Docker support.
     </td>
   </tr>
 </table>
