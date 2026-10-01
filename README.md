@@ -6,7 +6,7 @@
 </div>
 
 <h3 align="center">
-  Backend Developer &nbsp;|&nbsp; 2+ years building platforms used by 1,000+ students
+  Backend Developer &nbsp;|&nbsp; 3+ years building platforms used by 1,000+ students
 </h3>
 
 <p align="center">
